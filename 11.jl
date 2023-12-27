@@ -13,9 +13,7 @@ function rCountPartt(robot)
             count += 1;
             cCheck += 1
         else 
-            if count == 0 || cCheck == 0
-                cTotal += 0
-            else 
+            if count != 0 || cCheck != 0
                 cTotal += count / cCheck
                 count = 0
                 cCheck = 0
